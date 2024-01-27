@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 80px;
+     border: 1px solid black;
+     padding: 0 50px;
+     margin-bottom: 10px;
+}
+ .content{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 10px;
+}
+ .content .post{
+     max-width: 400px;
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+ .pagination{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+     gap: 10px;
+}
+ .pagination a{
+     background: black;
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 10px 20px;
+     border-radius: 5px;
+}
+ .header .search label{
+     font-weight: bold;
+     font-size: 16px;
+}
+ .header .search input{
+     padding: 10px;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 16px;
+}
+ .header .search button{
+     padding: 10px;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 16px;
+     background: black;
+     color: white;
+}

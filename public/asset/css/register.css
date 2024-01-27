@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .register{
+     border: 2px solid black;
+     border-radius: 10px;
+     max-width: 420px;
+     margin: 0 auto;
+}
+ .register h3{
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 20px;
+}
+ .register div{
+     padding: 5px;
+     margin: 5px 0;
+}
+ .register div label{
+     font-size: 16px;
+     margin-bottom: 5px;
+     display: block;
+}
+ .register div input{
+     padding: 10px;
+     width: 100%;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+ .register div p{
+     margin-top: 5px;
+     font-weight: bold;
+     color: red;
+}
+ .register div button{
+     padding: 8px;
+     width: 100%;
+     font-size: 20px;
+     font-weight: bold;
+     border-radius: 10px;
+}
+ .alert{
+     max-width: 200px;
+     background: red;
+     padding: 10px;
+     border: 1px solid black;
+     margin-bottom: 5px;
+}
